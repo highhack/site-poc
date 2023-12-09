@@ -1,8 +1,7 @@
 // pages/api/auth/[...nextauth].js
 import NextAuth from "next-auth";
-import Providers from "next-auth/providers";
 import mongoose from "mongoose";
-import User from "../../../models/User";
+import User from "../../../app/models/User";
 
 const mongoURI =
   "mongodb+srv://gosya85:<FxNeZY0Ciil9aaPL>@cluster0.umz5cdg.mongodb.net/?retryWrites=true&w=majority";

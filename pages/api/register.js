@@ -1,5 +1,4 @@
 // pages/api/register.js
-import connectDB from "../../utils/db";
 import User from "../../app/models/User";
 import bcrypt from "bcryptjs";
 
